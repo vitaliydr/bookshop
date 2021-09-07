@@ -1,0 +1,93 @@
+.container{
+    min-height: calc(100vh - 260px);
+    width: 100%;
+    padding-bottom: 18px;
+}
+.pageLine{
+    height: 2px;
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    display: flex;
+    justify-content: center;
+}
+.pageMarker{
+    height: 2px;
+    width: 140px;
+    background: rgb(133, 13, 13);
+    transform: translateX(-280px);
+}
+.content{
+    height: calc(100% + 50px);
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 10px;
+}
+.contentNews{
+    height: auto;
+    width: 60%;
+    margin-left: 20px;
+}
+.contentNewsTitle{
+    color: rgb(133, 13, 13);
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+.contentNewsContent{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.contentNewsImage{
+    height: 300px;
+    width: 180px;
+    margin: 30px;
+}
+.recomBook{
+    height: 270px;
+    margin-top: 15px;
+}
+.contentNewsText{
+    height: auto;
+    width: 60%;
+    margin-top: 40px;
+    text-align: justify;
+}
+.contentReg{
+    height: 300px;
+    width: 300px;
+    margin: 60px;
+    text-align: center;
+}
+.butReg{
+    height: 40px;
+    width: 300px;
+    padding-top: 15px;
+    margin: 10px 0;
+    color: white;
+    background: linear-gradient(66deg, #e38010, rgb(133, 13, 13));
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border: 1px solid rgb(133, 13, 13);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.butLog{
+    height: 40px;
+    width: 300px;
+    padding-top: 15px;
+    margin: 10px 0;
+    color: white;
+    background: linear-gradient(66deg, #e38010, #CEAD78);
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border: 1px solid rgb(133, 13, 13);
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+header{
+    background-color: rgb(133, 13, 13);
+    height: 140px;
+    width: 100%;
+  }
+  .logo-king{
+    height: 80px;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+  }
+  .logo-king-white{
+    width: 300px;
+  }
+  .navigation{
+    margin: auto;
+    height: 40px;
+    width: calc(100% - 100px);
+    background: linear-gradient(to top, #F6EFD2, #CEAD78);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav-head{
+    color: rgb(133, 13, 13);
+    width: 140px;
+    height: 32px;
+    padding-top: 8px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s linear;
+  }
+  .nav-active{
+    border-bottom: 3px solid rgb(133, 13, 13);
+  }
+  .nav-head:hover{
+    border-bottom: 2px solid rgba(133, 13, 13, 0.589);
+    background: #CEAD78;
+  }
+
+  

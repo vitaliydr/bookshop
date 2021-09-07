@@ -1,0 +1,86 @@
+.containerBooks{
+    min-height: calc(100vh - 260px);
+    width: 100%;
+    padding-bottom: 18px;
+}
+.pageLineBooks{
+    height: 2px;
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    display: flex;
+    justify-content: center;
+}
+.pageMarkerBooks{
+    height: 2px;
+    width: 140px;
+    background: rgb(133, 13, 13);
+    transform: translateX(-140px);
+}
+.contentBooks{
+    height: calc(100% + 50px);
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 10px;
+}
+/* Наповнення "Книги" */
+.contBook{
+    height: auto;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: row; 
+}
+.bookImage{
+    height: 250px;
+    width: 180px;
+    margin: 25px;
+}
+.bookText{
+    height: auto;
+    width: calc(100% - 460px);
+    margin-top: 0;
+    padding-left: 25px;
+}
+.bookTitle{
+    color:rgb(133, 13, 13);
+    margin-left: 0;
+    margin-top: 20px;
+}
+.bookDesc{
+    margin-top: 10px;
+}
+.bookPages{
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+.bookBasket{
+    height: 250px;
+    width: 180px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.bookPrice{
+    text-align: right;
+    font-size: 32px;
+}
+.bookClick{
+    height: 35px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(133, 13, 13);
+    border-radius: 3px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}

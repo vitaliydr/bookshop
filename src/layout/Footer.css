@@ -1,0 +1,29 @@
+footer{
+    background: linear-gradient(to bottom, #F6EFD2, #e2c597);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .footer-logo-king{
+    height: 60px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .logo-king-black{
+    height: 55px;
+    margin-top: 5px;
+  }
+  .footer-inform{
+    width: 200px;
+    height: 80px;
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+  }
+  .footer-link{
+    text-decoration: none;
+    color: black;
+  }

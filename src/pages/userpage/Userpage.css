@@ -1,0 +1,104 @@
+.containerUser{
+    min-height: calc(100vh - 260px);
+    width: 100%;
+    padding-bottom: 18px;
+}
+.pageLineUserpage{
+    height: 2px;
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    display: flex;
+    justify-content: center;
+}
+.pageMarkerUserpage{
+    height: 2px;
+    width: 140px;
+    background: rgb(133, 13, 13);
+    transform: translateX(140px);
+}
+.contentUser{
+    height: calc(100% + 50px);
+    margin: auto;
+    padding-top: 20px;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 10px;
+}
+.addBook{
+    height: 40px;
+    width: 300px;
+    padding-top: 15px;
+    margin: auto;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(66deg, #e38010, #CEAD78);
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border: 1px solid rgb(133, 13, 13);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.userContBook{
+    height: auto;
+    width: 95%;
+    margin: auto;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: row; 
+}
+/* Історія замовлень */
+.userInfo{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.history{
+    height: 100px;
+    width: calc(100% - 50px);
+    margin: 0 25px;
+    padding: 10px 0;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+}
+.historyBookImg{
+    height: 100px;
+}
+.historyBookTitle{
+    color:rgb(133, 13, 13);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-grow: 1;
+}
+.historyBookPrice{
+    text-align: right;
+    font-size: 32px;
+    margin: 20px 20px 0 0;
+}
+.historyUserName{
+    color:rgb(133, 13, 13);
+    font-size: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.historyTitle{
+    font-size: 24px;
+    margin: 0 0 20px 25px;
+    font-weight: bold;
+}
+
+.noBooks{
+    height: 50px;
+    width: 95%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    color:rgb(133, 13, 13);
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 1px solid gray;
+}

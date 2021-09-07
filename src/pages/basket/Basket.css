@@ -1,0 +1,77 @@
+.containerBasket{
+    min-height: calc(100vh - 260px);
+    width: 100%;
+    padding-bottom: 18px;
+}
+.pageLineBasket{
+    height: 2px;
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    display: flex;
+    justify-content: center;
+}
+.pageMarkerBasket{
+    height: 2px;
+    width: 140px;
+    background: rgb(133, 13, 13);
+}
+.contentBasket{
+    height: calc(100% + 50px);
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 20px;
+}
+/* Наповнення "Кошик" */
+.basket{
+    height: 100px;
+    width: calc(100% - 50px);
+    margin: 0 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+}
+.basketBookImg{
+    height: 100px;
+}
+.basketBookTitle{
+    color:rgb(133, 13, 13);
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-grow: 1;
+}
+.basketBookDel{
+    height: 35px;
+    width: 120px;
+    margin-top: 25px;
+    background-color: rgb(133, 13, 13);
+    border-radius: 3px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.basketBookPrice{
+    text-align: right;
+    font-size: 32px;
+    margin: 20px 20px 0 0;
+}
+.basketBuy{
+    height: 40px;
+    width: 300px;
+    padding-top: 15px;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(66deg, #e38010, #CEAD78);
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border: 1px solid rgb(133, 13, 13);
+    border-radius: 3px;
+    cursor: pointer;
+}

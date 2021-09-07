@@ -1,0 +1,44 @@
+.containerAbout{
+    min-height: calc(100vh - 260px);
+    width: 100%;
+    padding-bottom: 18px;
+}
+.pageLineAbout{
+    height: 2px;
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    display: flex;
+    justify-content: center;
+}
+.pageMarkerAbout{
+    height: 2px;
+    width: 140px;
+    background: rgb(133, 13, 13);
+    transform: translateX(280px);
+}
+.contentAbout{
+    height: calc(100% + 50px);
+    margin: auto;
+    width: calc(100% - 100px);
+    background-color: #fffcef;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 10px;
+}
+/* Наповнення "Про автора" */
+.aboutPhotos{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+.aboutImg{
+    width: 280px;
+}
+.aboutText{
+    width: calc(100% - 300px);
+    height: auto;
+    padding: 20px;
+    padding-left: 0px;
+}
